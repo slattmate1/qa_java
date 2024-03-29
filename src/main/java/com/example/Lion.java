@@ -1,6 +1,7 @@
 package com.example;
 
 import java.util.List;
+
 public class Lion {
     Feline feline;
     boolean hasMane;
