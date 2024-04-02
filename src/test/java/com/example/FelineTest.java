@@ -30,7 +30,8 @@ public class FelineTest {
     @Test
     public void getKittens() {
         int actual = feline.getKittens();
-        assertEquals(1, actual);
+        int expectedKittenCountForMock = 1;
+        assertEquals(expectedKittenCountForMock,actual);
     }
 
     @Test
